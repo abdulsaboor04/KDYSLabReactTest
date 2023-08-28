@@ -1,0 +1,65 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  margin: 2rem;
+
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.pokemon-details {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.attacks {
+  margin-top: 1rem;
+}
+
+.attack-list {
+  list-style: none;
+  padding: 0;
+}
+
+.attack-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
